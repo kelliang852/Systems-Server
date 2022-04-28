@@ -1,0 +1,42 @@
+*********************************
+
+Sequence of Tasks
+
+DONE! 1.1 FileReader.cc
+
+DONE! 1.2 WordIndex.cc
+
+DONE! 2. CrawlFileTree.cc
+
+DONE! 3.1 ServerSocket.cc
+
+DONE! 3.2 HttpConnection.cc
+
+DONE! 3.3 HttpUtils.cc
+
+DONE! 4. HttpServer.cc
+
+*********************************
+
+Testing: 
+
+-> solution : ./solution_binaries/httpd 3000 ./test_tree/
+-> developer tool to read HTML source code
+-> network tab: http request and network stuff
+
+*********************************
+
+Debugging:
+
+
+*********************************
+
+TO-DO: 
+
+*********************************
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+*********************************
+
+Sequence of Tasks
+
+DONE! 1.1 FileReader.cc
+
+DONE! 1.2 WordIndex.cc
+
+DONE! 2. CrawlFileTree.cc
+
+DONE! 3.1 ServerSocket.cc
+
+DONE! 3.2 HttpConnection.cc
+
+DONE! 3.3 HttpUtils.cc
+
+** 4. HttpServer.cc --> 3 functions
+--> threading; static void HttpServer_ThrFn(ThreadPool::Task *t)
+--> static HttpResponse ProcessFileRequest(const string &uri, const string &base_dir)
+--> static HttpResponse ProcessQueryRequest(const string &uri, WordIndex *index)
+
+*********************************
+
+Testing: 
+
+-> solution : ./solution_binaries/httpd 3000 ./test_tree/
+-> developer tool to read HTML source code
+-> network tab: http request and network stuff
+
+*********************************
+
+Debugging:
+(1) Cannot work with books or the entire test_tree
+
+Books: 12:14:15
+
+Test_tree:
+
+*********************************
+
+TO-DO: 
+
+1. Dot is the last character
+2. Has no dot --> configure
+
+*********************************
+
+
+
+
+
+
